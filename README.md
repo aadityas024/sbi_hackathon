@@ -52,7 +52,10 @@ catboost
 tensorflow
 joblib
 
-Project Structure
+---
+
+### Project Structure
+
 ├── main.py                # Entry point to run the full pipeline
 ├── data_ingestion.py      # Functions to load/generate data
 ├── data_cleaning.py       # Cleaning utilities
