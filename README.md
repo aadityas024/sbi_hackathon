@@ -51,18 +51,3 @@ lightgbm
 catboost
 tensorflow
 joblib
-
----
-
-### Project Structure
-
-├── main.py                # Entry point to run the full pipeline
-├── data_ingestion.py      # Functions to load/generate data
-├── data_cleaning.py       # Cleaning utilities
-├── feature_engineering.py # Custom transformer for feature creation
-├── stage1_filtering.py    # High-recall XGBoost filter
-├── stage2_nn.py           # Neural network training and evaluation
-├── ensemble.py            # Ensemble training with uncertainty logic
-├── requirements.txt       # Python dependencies
-├── README.md              # This document
-└── models/                # Saved model artifacts (.pkl, .h5)
